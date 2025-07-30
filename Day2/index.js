@@ -4,6 +4,10 @@
 //     console.log(addition(5,10));
 //     console.log(subtraction(15,10));
 // }
+// const{division}=require("./cal");
+// {
+//     console.log(division(5,5));
+// }
 // const{multiplication}=require("./multiplication")
 // {
 //     console.log(multiplication(10,5));
@@ -25,6 +29,9 @@
 //   return manageUSer({name:"aritrak",email:"aritrak@gmail.com"});
 // };
 // console.log(users());
+
+
+
 
 
 
@@ -57,23 +64,6 @@
 // .listen(8080,()=>{
 //     console.log("Server started")
 // });
-
-
-
-
-
-
-const http=require("http");
-const axios=require("axios");
-http.createServer((request,response)=>{
-    axios.get("https://dummyjson.com/products").then((res)=>{
-    response.write(JSON.stringify(res.data));
-    response.end();
-     })
-}).listen(1234,()=>{
-    console.log("Started");
-})
-
 
 
 
