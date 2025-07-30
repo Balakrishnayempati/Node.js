@@ -46,18 +46,20 @@
 
 
 // third party using with commonjs
-const c=require("colors");
-console.log(c.black("Black in color"));
-console.log(c.white("White in color"));
-console.log(c.green("Node.js"));
-console.log(c.red("Error"));
-console.log(c.bgBlue("Background color"));
-console.log(c.bgWhite("Background color"));
-console.log(c.rainbow("Rainbow effect"));
+// const c=require("colors");
+// console.log(c.black("Black in color"));
+// console.log(c.white("White in color"));
+// console.log(c.green("Node.js"));
+// console.log(c.red("Error"));
+// console.log(c.bgBlue("Background color"));
+// console.log(c.bgWhite("Background color"));
+// console.log(c.rainbow("Rainbow effect"));
 
 // using uuid third party
-const id=require("uuid");
-console.log("Random uuid numbers");
-console.log(id.v4());
-console.log(id.v1());
+// const id=require("uuid");
+// console.log("Random uuid numbers");
+// console.log(id.v4());
+// console.log(id.v1());
 
+// import {v4} from "uuid";
+// console.log(v4());
